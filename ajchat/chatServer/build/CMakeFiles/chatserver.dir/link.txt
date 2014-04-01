@@ -1,0 +1,1 @@
+/usr/bin/c++   -g    CMakeFiles/chatserver.dir/main.o  -o chatserver -rdynamic 

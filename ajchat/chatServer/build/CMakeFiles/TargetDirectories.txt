@@ -1,0 +1,1 @@
+/home/an/dev/my/chat/ajchat/chatServer/build/CMakeFiles/chatserver.dir
