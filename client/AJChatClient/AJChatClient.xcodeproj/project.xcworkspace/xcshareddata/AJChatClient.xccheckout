@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>AE3BF6D9-1B97-4336-AB26-3E588FEF461A</string>
+	<string>AF8C4E71-3E72-4CF5-8680-0190BA929510</string>
 	<key>IDESourceControlProjectName</key>
 	<string>AJChatClient</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>FC8C7609-E34C-4C7B-9F76-E57FB88E4219</string>
 			<key>IDESourceControlWCCName</key>
-			<string>AJChat</string>
+			<string>AJChatClient</string>
 		</dict>
 	</array>
 </dict>

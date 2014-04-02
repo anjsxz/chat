@@ -6,7 +6,6 @@
 //  Copyright (c) 2014年 anjun. All rights reserved.
 //
 
-// File: prg5_1.c
 #include <stdio.h>          /* These are the usual header files */
 #include <strings.h>          /* for bzero() */
 #include <unistd.h>         /* for close() */
