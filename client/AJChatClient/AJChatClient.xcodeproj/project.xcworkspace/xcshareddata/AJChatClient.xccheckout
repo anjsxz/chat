@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>3C49AC80-5A9C-4306-8C21-01A000CF05BB</string>
+	<string>AE3BF6D9-1B97-4336-AB26-3E588FEF461A</string>
 	<key>IDESourceControlProjectName</key>
-	<string>AJChat</string>
+	<string>AJChatClient</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>FC8C7609-E34C-4C7B-9F76-E57FB88E4219</key>
 		<string>https://github.com/anjsxz/chat.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>server/AJChat/AJChat.xcodeproj/project.xcworkspace</string>
+	<string>client/AJChatClient/AJChatClient.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>FC8C7609-E34C-4C7B-9F76-E57FB88E4219</key>
