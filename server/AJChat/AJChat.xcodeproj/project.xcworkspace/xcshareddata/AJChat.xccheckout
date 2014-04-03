@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>3C49AC80-5A9C-4306-8C21-01A000CF05BB</string>
+	<string>929EFFD6-998F-4AE4-B613-28E262353775</string>
 	<key>IDESourceControlProjectName</key>
 	<string>AJChat</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>FC8C7609-E34C-4C7B-9F76-E57FB88E4219</key>
-		<string>https://github.com/anjsxz/chat.git</string>
+		<key>25EC40A1-87DB-4196-BEFA-658EAFE233BC</key>
+		<string>https://github.com/anjsxz/chat</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>server/AJChat/AJChat.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>FC8C7609-E34C-4C7B-9F76-E57FB88E4219</key>
+		<key>25EC40A1-87DB-4196-BEFA-658EAFE233BC</key>
 		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/anjsxz/chat.git</string>
+	<string>https://github.com/anjsxz/chat</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>FC8C7609-E34C-4C7B-9F76-E57FB88E4219</string>
+	<string>25EC40A1-87DB-4196-BEFA-658EAFE233BC</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>FC8C7609-E34C-4C7B-9F76-E57FB88E4219</string>
+			<string>25EC40A1-87DB-4196-BEFA-658EAFE233BC</string>
 			<key>IDESourceControlWCCName</key>
-			<string>AJChat</string>
+			<string>chat</string>
 		</dict>
 	</array>
 </dict>

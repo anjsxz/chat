@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F6E3C9E18ED9510003A323E /* DBModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F6E3C9C18ED9510003A323E /* DBModel.cpp */; };
+		5F6E3CA118ED9524003A323E /* DBManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F6E3C9F18ED9524003A323E /* DBManager.cpp */; };
+		5F6E3CA418ED9A3A003A323E /* libmysqlclient.18.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6E3CA318ED9A3A003A323E /* libmysqlclient.18.dylib */; };
+		5F6E3CA718ED9AF0003A323E /* MysqlApi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F6E3CA518ED9AF0003A323E /* MysqlApi.cpp */; };
 		5F787B7318EBA46400EB27C0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F787B7218EBA46400EB27C0 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +27,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5F6E3C9C18ED9510003A323E /* DBModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DBModel.cpp; sourceTree = "<group>"; };
+		5F6E3C9D18ED9510003A323E /* DBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBModel.h; sourceTree = "<group>"; };
+		5F6E3C9F18ED9524003A323E /* DBManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DBManager.cpp; sourceTree = "<group>"; };
+		5F6E3CA018ED9524003A323E /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		5F6E3CA318ED9A3A003A323E /* libmysqlclient.18.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libmysqlclient.18.dylib; sourceTree = "<group>"; };
+		5F6E3CA518ED9AF0003A323E /* MysqlApi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MysqlApi.cpp; sourceTree = "<group>"; };
+		5F6E3CA618ED9AF0003A323E /* MysqlApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MysqlApi.h; sourceTree = "<group>"; };
 		5F787B6F18EBA46400EB27C0 /* AJChat */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AJChat; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F787B7218EBA46400EB27C0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,12 +43,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F6E3CA418ED9A3A003A323E /* libmysqlclient.18.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F6E3C9B18ED94C3003A323E /* model */ = {
+			isa = PBXGroup;
+			children = (
+				5F6E3C9C18ED9510003A323E /* DBModel.cpp */,
+				5F6E3C9D18ED9510003A323E /* DBModel.h */,
+				5F6E3C9F18ED9524003A323E /* DBManager.cpp */,
+				5F6E3CA018ED9524003A323E /* DBManager.h */,
+				5F6E3CA518ED9AF0003A323E /* MysqlApi.cpp */,
+				5F6E3CA618ED9AF0003A323E /* MysqlApi.h */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		5F6E3CA218ED9A2C003A323E /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				5F6E3CA318ED9A3A003A323E /* libmysqlclient.18.dylib */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
 		5F787B6618EBA46400EB27C0 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +90,8 @@
 		5F787B7118EBA46400EB27C0 /* AJChat */ = {
 			isa = PBXGroup;
 			children = (
+				5F6E3CA218ED9A2C003A323E /* lib */,
+				5F6E3C9B18ED94C3003A323E /* model */,
 				5F787B7218EBA46400EB27C0 /* main.cpp */,
 			);
 			path = AJChat;
@@ -114,6 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F787B7318EBA46400EB27C0 /* main.cpp in Sources */,
+				5F6E3CA718ED9AF0003A323E /* MysqlApi.cpp in Sources */,
+				5F6E3CA118ED9524003A323E /* DBManager.cpp in Sources */,
+				5F6E3C9E18ED9510003A323E /* DBModel.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +231,15 @@
 		5F787B7918EBA46400EB27C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/anjun/dev/c/lib/mysql/mysql-connector-c-6.1.3-osx10.7-x86_64/include",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AJChat/lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -200,6 +247,15 @@
 		5F787B7A18EBA46400EB27C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/anjun/dev/c/lib/mysql/mysql-connector-c-6.1.3-osx10.7-x86_64/include",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AJChat/lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -223,6 +279,7 @@
 				5F787B7A18EBA46400EB27C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
